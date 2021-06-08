@@ -1,0 +1,23 @@
+{
+  "name": "uniswap_v3_event_listener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "uniswap_v3_random.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/risingsun007/Uniswap_V3_Event_Listener.git"
+  },
+  "keywords": [
+    "uniswapV3",
+    "events"
+  ],
+  "author": "risingsun007",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/risingsun007/Uniswap_V3_Event_Listener/issues"
+  },
+  "homepage": "https://github.com/risingsun007/Uniswap_V3_Event_Listener#readme"
+}
