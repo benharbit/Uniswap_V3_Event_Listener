@@ -117,7 +117,7 @@ async function watch_Swap_event_of_pool_v3(address1, address2,fee) {
 		var tick = rtn1["6"];
 		var price = 0;
 
-		var price = get_uniswap_v3_price(contracts_info[address1].decimals, contracts_info[address2].decimals, sqrtprice96);
+		price = get_uniswap_v3_price(contracts_info[token0]["decimals"], contracts_info[token1]["decimals"], sqrtprice96);
 	
 		if(price<1.0 && (symbol_0=="weth" || symbol_1=="weth")){
 			price = 1.0/price;
@@ -142,7 +142,6 @@ address1 = contracts_by_symbol['weth'].address;
 address2 = contracts_by_symbol['dai'].address;
 fee_level = 3000;
 watch_Swap_event_of_pool_v3(address1,address2,fee_level)
-
 
 
 address1 = contracts_by_symbol['weth'].address;
